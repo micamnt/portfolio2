@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquamarine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="encabezado">
+        <h1 class="logo">Aquamarine</h1>
+        <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <label for="check" class="ocultar-menu">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="contenido-home">
+            <h2>Bienvenidx a nuestra tienda</h2>
+            <p>Explorá nuestra colección de hoodies y pants</p>
+        </div>
+    </section>
+
+        <button id="btn-generar">Generar Frase Aleatoria</button>
+            <div id="frase">
+                <p id="frase"></p>
+            </div>
+    
+    <section id="productos">
+        <h2>Hoodies</h2>
+            <div class="producto">
+               <img src="beige.jpg" alt="Hoodie 1">
+               <h3>Walls</h3>
+               <p>Precio: $49.999</p>
+               <button>Comprar</button>
+            </div>
+            <div class="producto">
+               <img src="black.jpg" alt="Hoodie 2">
+               <h3>Hxppy</h3>
+               <p>Precio: $59.999</p>
+               <button>Comprar</button>
+            </div>
+        <h2>Pants</h2>
+           <div class="producto">
+               <img src="print_pants.jpg" alt="Pant 1">
+               <h3>Leopard</h3>
+               <p>Precio: $29.999</p>
+               <button>Comprar</button>
+           </div>
+           <div class="producto">
+               <img src="cebra.jpg" alt="Pant 2">
+               <h3>Cebra</h3>
+               <p>Precio: $29.999</p>
+               <button>Comprar</button>
+           </div>
+           <!-- Agregar más productos -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Aquamarine. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
